@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "statLibJson", "libjson.vcproj", "{153A6FE5-40A9-4C31-B0C2-1C68D2E37BEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "..\test\test.vcproj", "{B562C0D3-8BEC-4203-8EBC-C0376DBE57B1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{153A6FE5-40A9-4C31-B0C2-1C68D2E37BEA} = {153A6FE5-40A9-4C31-B0C2-1C68D2E37BEA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		small|Win32 = small|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{153A6FE5-40A9-4C31-B0C2-1C68D2E37BEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{153A6FE5-40A9-4C31-B0C2-1C68D2E37BEA}.Debug|Win32.Build.0 = Debug|Win32
+		{153A6FE5-40A9-4C31-B0C2-1C68D2E37BEA}.Release|Win32.ActiveCfg = Release|Win32
+		{153A6FE5-40A9-4C31-B0C2-1C68D2E37BEA}.Release|Win32.Build.0 = Release|Win32
+		{153A6FE5-40A9-4C31-B0C2-1C68D2E37BEA}.small|Win32.ActiveCfg = small|Win32
+		{153A6FE5-40A9-4C31-B0C2-1C68D2E37BEA}.small|Win32.Build.0 = small|Win32
+		{B562C0D3-8BEC-4203-8EBC-C0376DBE57B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B562C0D3-8BEC-4203-8EBC-C0376DBE57B1}.Debug|Win32.Build.0 = Debug|Win32
+		{B562C0D3-8BEC-4203-8EBC-C0376DBE57B1}.Release|Win32.ActiveCfg = Release|Win32
+		{B562C0D3-8BEC-4203-8EBC-C0376DBE57B1}.Release|Win32.Build.0 = Release|Win32
+		{B562C0D3-8BEC-4203-8EBC-C0376DBE57B1}.small|Win32.ActiveCfg = Release|Win32
+		{B562C0D3-8BEC-4203-8EBC-C0376DBE57B1}.small|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

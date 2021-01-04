@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{a822e445-6378-48c5-877c-201590ca54be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{cb8aa016-183e-45d7-9317-401d4d1c65ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{84097c3c-671f-46af-90f4-4b28be0f3685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{a58fadc4-f388-49fe-a294-dca043651288}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="File\FFileOperator.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\HttpGetFile.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\FException.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\FilePath.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\LogWriter.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\TraceLog.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\Utility.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="String\StringConvert.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\StringTokenizer.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\URLEncDec.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="File\FFileOperator.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\HttpGetFile.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\FException.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\FilePath.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\LogWriter.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\TraceLog.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\Utility.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="String\StringConvert.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="String\StringTokenizer.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="String\tstring.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="String\URLEncDec.h">
+      <Filter>String</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
